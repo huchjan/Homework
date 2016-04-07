@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Site From Image</title>
+    <style>
+        body {
+            background-color: white;
+            border-color: lightgrey;
+            border: 50px;
+        }
+        
+        h1 {
+            color: blue;
+        }
+        
+        .col {
+            float: left;
+        }
+        
+        .col-left {
+            width: 15%;
+        }
+        
+        .col-right {
+            width: 15%;
+        }
+        
+        .col-center {
+            width: 70%;
+        }
+        
+        .header {
+            font-weight: bold;
+        }
+        /* If we want to give our cells padding we would have to create divs inside them, or risk increasing the width of our columns and pushing the float to the next line. */
+    </style>
+</head>
+<h1>The JPEG Image</h1>
+
+<body>
+    <div class="content">
+        <div class="col col-left">
+            <p>The term "JPEG" is an acronym for the Joint Photographic Experts Group, which created the standard. The MIME media type for JPEG is image/jpeg, except in older Internet Explorer versions, which provides a MIME type of image/pjpeg when uploading JPEG imagaes. JPEG files usually have a filename extension of .jpg or .jpeg.</p>
+
+            <p>JPEG/JFIF supports a maximum image size of 65,535 x 65,535 pixels, hence up to 4 gigapixels (for an aspect ratio of 1:1).</p>
+
+            <p>(From https://en.wikipedia.org/wiki/JPEG)</p>
+        </div>
+
+        <div class="col col-center"><img src="http://jpeg.org/images/jpeg-home.jpg></div>
+
+        <div class="col col-right">
+            <p>Other Image Types</p>
+            <p> jpg</p>
+            <p> png</p>
+            <p>gif</p>
+            <p>bmp</p>
+        </div>
+    </div>
+</body>
+
+</html>
